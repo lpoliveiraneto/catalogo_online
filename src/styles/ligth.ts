@@ -1,11 +1,10 @@
-export default {
-    title: 'light',
 
+const ligth = {
     colors: {
-      primary: '#666',
-      secundary: '#777',
+     background: '#fff',
+     text: '#e1e1e6',
+     primary: '#8257e6'
+    }
+ }
 
-      background: '#fff',
-      text: '#333',
-    },
-  };
+ export default ligth
