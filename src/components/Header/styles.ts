@@ -21,7 +21,7 @@ export const Container = styled.button`
     div{
         width: 2rem;
         height: 0.25rem;
-        background: #cb2027;
+        background: ${props => props.theme.white.primary};
         border-radius: 10px;
         transition: all 0.3s linear;
         position: relative;
