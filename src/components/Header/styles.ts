@@ -19,7 +19,7 @@ export const Container = styled.button`
     }
 
     div{
-        width: 2rem;
+        width: 2.5rem;
         height: 0.25rem;
         background: ${props => props.theme.white.primary};
         border-radius: 10px;

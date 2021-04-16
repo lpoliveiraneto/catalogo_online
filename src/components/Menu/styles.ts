@@ -19,7 +19,8 @@ export const StyledMenu = styled.nav`
     }
 
     a{
-        font-size: 1.5rem;
+        font-family:'PT Sans', sans-serif;
+        font-size: 2.5rem;
         text-align: center;
         padding: 2rem 0;
         font-weight: bold;

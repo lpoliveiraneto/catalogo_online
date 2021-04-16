@@ -12,8 +12,11 @@ const theme = {
 
    white:{
         primary:'#fff'
-   }
+   },
 
+   dark:{
+       primary:'#69779b'
+   }
 
 }
 
