@@ -7,6 +7,7 @@ import theme from '../styles/theme';
 
 import  Header  from '../components/Header';
 import { Menu } from '../components/Menu';
+import CardProduct from '../components/Card';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return(
@@ -14,10 +15,11 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             <Menu >
                 <Header />
             </Menu>
-
+            <CardProduct />
 			<Component {...pageProps} />
 			<GlobalStyle />
         </ThemeProvider>
+
   )
 }
 

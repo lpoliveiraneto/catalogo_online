@@ -1,4 +1,5 @@
 import React from 'react'
+import CardProduct from '../Card';
 import Header from '../Header';
 
 import { StyledMenu } from './styles';
