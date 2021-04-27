@@ -8,6 +8,8 @@ import theme from '../styles/theme';
 import  Header  from '../components/Header';
 import { Menu } from '../components/Menu';
 import CardProduct from '../components/Card';
+import BoxOption from '../components/BoxOption';
+
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return(
@@ -16,6 +18,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                 <Header />
             </Menu>
             <CardProduct />
+            <BoxOption />
 			<Component {...pageProps} />
 			<GlobalStyle />
         </ThemeProvider>

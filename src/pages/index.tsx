@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import CardProduct from '../components/Card'
 import { Container } from '../styles/pages/Home'
 
 //importar imagens svg
@@ -7,14 +6,11 @@ import { Container } from '../styles/pages/Home'
 const Home: React.FC = () => {
   return(
     <Container>
-      <Head>
-        <title>Cardápio</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-       <h1>Tá saindo o monstro</h1>
-       <p>Utilizando o styled component</p>
-
+        <Head >
+            <div></div>
+        </Head>
     </Container>
+
   )
 }
 
