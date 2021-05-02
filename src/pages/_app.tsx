@@ -14,11 +14,6 @@ import BoxOption from '../components/BoxOption';
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return(
 		<ThemeProvider theme={theme}>
-            <Menu >
-                <Header />
-            </Menu>
-            <CardProduct />
-            <BoxOption />
 			<Component {...pageProps} />
 			<GlobalStyle />
         </ThemeProvider>

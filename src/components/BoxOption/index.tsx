@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { Containe, Footer, Header, Principal } from './styles'
+import  Salgados  from '../../image/salgados-min.png'
 
 const BoxOption: React.FC = () => {
     return(
         <Containe>
             <Header> Combo de Salgados</Header>
             <Principal>
-                <img/>
                 <strong>Escolha os Sabores</strong>
                 <p>Coxinha</p>
                 <p>Bolinha de pizza</p>
